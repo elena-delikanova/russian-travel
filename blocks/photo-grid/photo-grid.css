@@ -5,4 +5,5 @@
   grid-template-rows: repeat(auto-fit, minmax(213px, 1fr));
   gap: 16px;
   margin: 0 auto;
+  padding-bottom: 92px;
 }
