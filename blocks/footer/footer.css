@@ -4,12 +4,20 @@
   align-items: center;
   max-width: 1184px;
   margin: 0 auto;
-  padding: 92px 48px 24px;
+  padding: 92px 0 24px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .footer {
+    max-width: 928px;
+    padding: 88px 0 24px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .footer {
-    padding: 88px 24px 24px;
+    max-width: 720px;
+    padding: 88px 0 24px;
   }
 }
 
