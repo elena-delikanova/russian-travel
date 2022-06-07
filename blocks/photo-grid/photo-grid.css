@@ -7,3 +7,18 @@
   margin: 0 auto;
   padding-bottom: 92px;
 }
+
+@media screen and (max-width: 1024px) {
+  .photo-grid {
+    max-width: 928px;
+    gap: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .photo-grid {
+    max-width: 720px;
+    padding-bottom: 88px;
+    gap: 16px;
+  }
+}

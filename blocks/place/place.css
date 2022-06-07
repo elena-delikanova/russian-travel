@@ -6,3 +6,17 @@
   grid-template-rows: 1fr;
   gap: 48px 40px;
 }
+
+@media screen and (max-width: 1024px) {
+  .place {
+    grid-template-columns: 440px 1fr;
+    gap: 48px 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    grid-template-columns: 340px 1fr;
+    gap: 48px 28px;
+  }
+}
