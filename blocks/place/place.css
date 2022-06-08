@@ -1,5 +1,4 @@
 .place {
-  margin: 0 auto;
   padding: 0 0 80px;
   display: grid;
   grid-template-columns: 460px 1fr;
@@ -30,5 +29,6 @@
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     gap: 32px;
+    padding-bottom: 50px;
   }
 }
